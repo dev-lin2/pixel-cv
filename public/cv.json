@@ -1,55 +1,77 @@
 {
-  "name": "Pixel CV",
-  "title": "Fullstack Developer",
-  "email": "hello@example.com",
-  "location": "San Francisco, CA",
-  "bio": "Fullstack engineer focused on fast, accessible interfaces with strong visual polish.",
+  "name": "Lin Aung",
+  "title": "Senior Full Stack Developer",
+  "email": "linaung.me@gmail.com",
+  "location": "Singapore",
+  "bio": "Senior Fullstack Developer with expertise in Laravel, React, and Node.js. Experienced in building CRM systems, e-commerce platforms, and scalable web applications serving thousands of daily users.",
   "socials": [
-    { "name": "GitHub", "url": "https://github.com" },
-    { "name": "LinkedIn", "url": "https://www.linkedin.com" }
+    { "name": "GitHub", "url": "https://github.com/dev-lin2" },
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/iamlinaung" }
   ],
   "experience": [
     {
-      "role": "Senior Fullstack Developer",
-      "company": "Acme Labs",
-      "period": "2023 - Present",
-      "description": "Built reusable design system components and improved page speed across core flows.",
-      "tags": ["React", "TypeScript", "Performance"]
+      "role": "Fullstack Developer",
+      "company": "Amdon Development",
+      "period": "May 2024 - Present",
+      "description": "Built and maintained 3 projects with React, Vite, TypeScript and Node.js. Added over 200 Storybook components and achieved 85%+ test coverage.",
+      "tags": ["React", "Vite", "TypeScript", "Node.js", "Storybook"]
     },
     {
       "role": "Fullstack Developer",
-      "company": "Pixel Works",
-      "period": "2020 - 2023",
-      "description": "Shipped customer-facing dashboards and maintained accessibility standards.",
-      "tags": ["UI", "Accessibility", "Testing"]
+      "company": "Aptive Environmental",
+      "period": "Oct 2023 - Mar 2024",
+      "description": "Developed core modules for greenfield CRM system with 5000+ daily users. Boosted application performance by 50% through database query optimization.",
+      "tags": ["Laravel", "JavaScript", "Docker", "AWS"]
+    },
+    {
+      "role": "Fullstack Developer",
+      "company": "Webquest.io",
+      "period": "Jan 2023 - Oct 2023",
+      "description": "Managed and maintained 4-5 critical web applications. Built dynamic, responsive interfaces with Laravel and React.",
+      "tags": ["Laravel", "React", "Full Stack"]
+    },
+    {
+      "role": "Fullstack Developer",
+      "company": "Alphasirius.io",
+      "period": "Dec 2021 - Jan 2023",
+      "description": "Migrated Java API to PHP, integrated global payment methods, and engineered admin panel for e-commerce platform.",
+      "tags": ["Laravel", "MongoDB", "Payment Integration"]
     }
   ],
   "skills": [
-    { "category": "Frontend", "items": ["React", "TypeScript", "Tailwind CSS"] },
-    { "category": "Backend", "items": ["Node.js", "PostgreSQL", "REST APIs"] },
-    { "category": "Tools", "items": ["Git", "Docker", "Figma"] }
+    { "category": "Frontend", "items": ["React.js", "Vue.js", "TypeScript", "Vite", "Livewire", "InertiaJs", "Tanstack"] },
+    { "category": "Backend", "items": ["PHP", "Node.js", "NestJs", "NextJs", "GraphQL", "Python"] },
+    { "category": "Database", "items": ["PostgreSQL", "MySQL", "MongoDB"] },
+    { "category": "Tools", "items": ["Docker", "AWS", "TDD", "Git"] },
+    { "category": "Mobile", "items": ["Flutter", "React Native", "Ionic"] }
   ],
   "projects": [
     {
-      "name": "Design Token Studio",
-      "description": "Token management UI for multi-brand themes.",
-      "tech": ["React", "TypeScript", "Vite"],
-      "url": "https://example.com",
-      "github": "https://github.com"
+      "name": "Aptive Environmental CRM",
+      "description": "CRM system handling 5000+ daily users with comprehensive test suite and optimized performance.",
+      "tech": ["Laravel", "JavaScript", "Docker", "AWS"]
     },
     {
-      "name": "Support Portal",
-      "description": "Self-service customer portal with analytics and request tracking.",
-      "tech": ["React", "Node.js"],
-      "url": "https://example.com",
-      "github": "https://github.com"
+      "name": "Carzuno",
+      "description": "Revamped UI and added quality of life features to drive more sales.",
+      "tech": ["Laravel", "React", "Docker"]
+    },
+    {
+      "name": "Servd",
+      "description": "AWS-powered CRM with granular permissions. Migrated to Livewire for dynamic UI.",
+      "tech": ["Laravel", "Livewire", "AWS"]
+    },
+    {
+      "name": "WERLOOP",
+      "description": "E-commerce web application with multi-vendor system and multiple payment integrations.",
+      "tech": ["Laravel", "JavaScript"]
     }
   ],
   "education": [
     {
-      "degree": "B.S. Computer Science",
-      "school": "State University",
-      "year": "2019"
+      "degree": "Bachelor of Engineering (IT)",
+      "school": "West Yangon Technological University",
+      "year": "2017"
     }
   ]
 }
