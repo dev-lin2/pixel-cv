@@ -1,0 +1,55 @@
+{
+  "name": "Pixel CV",
+  "title": "Fullstack Developer",
+  "email": "hello@example.com",
+  "location": "San Francisco, CA",
+  "bio": "Fullstack engineer focused on fast, accessible interfaces with strong visual polish.",
+  "socials": [
+    { "name": "GitHub", "url": "https://github.com" },
+    { "name": "LinkedIn", "url": "https://www.linkedin.com" }
+  ],
+  "experience": [
+    {
+      "role": "Senior Fullstack Developer",
+      "company": "Acme Labs",
+      "period": "2023 - Present",
+      "description": "Built reusable design system components and improved page speed across core flows.",
+      "tags": ["React", "TypeScript", "Performance"]
+    },
+    {
+      "role": "Fullstack Developer",
+      "company": "Pixel Works",
+      "period": "2020 - 2023",
+      "description": "Shipped customer-facing dashboards and maintained accessibility standards.",
+      "tags": ["UI", "Accessibility", "Testing"]
+    }
+  ],
+  "skills": [
+    { "category": "Frontend", "items": ["React", "TypeScript", "Tailwind CSS"] },
+    { "category": "Backend", "items": ["Node.js", "PostgreSQL", "REST APIs"] },
+    { "category": "Tools", "items": ["Git", "Docker", "Figma"] }
+  ],
+  "projects": [
+    {
+      "name": "Design Token Studio",
+      "description": "Token management UI for multi-brand themes.",
+      "tech": ["React", "TypeScript", "Vite"],
+      "url": "https://example.com",
+      "github": "https://github.com"
+    },
+    {
+      "name": "Support Portal",
+      "description": "Self-service customer portal with analytics and request tracking.",
+      "tech": ["React", "Node.js"],
+      "url": "https://example.com",
+      "github": "https://github.com"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.S. Computer Science",
+      "school": "State University",
+      "year": "2019"
+    }
+  ]
+}
