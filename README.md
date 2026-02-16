@@ -1,6 +1,6 @@
 # pixel-cv
 
-Simple personal CV/portfolio website in Pixel style.
+Simple personal CV/portfolio website in Pixel style. Demo here [Demo](pixel-cv-seven.vercel.app)
 
 The homepage content is data-driven from `public/cv.json`, you can update their profile, experience, skills, projects, and contact details without touching React components.
 
@@ -60,3 +60,5 @@ Edit `public/cv.json` and update values such as:
 ```bash
 npm run build
 ```
+
+Please give this repo a ⭐ if its help.
