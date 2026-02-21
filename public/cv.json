@@ -2,76 +2,123 @@
   "name": "Lin Aung",
   "title": "Senior Full Stack Developer",
   "email": "linaung.me@gmail.com",
+  "phone": "+65 83756420",
   "location": "Singapore",
-  "bio": "Senior Fullstack Developer with expertise in Laravel, React, and Node.js. Experienced in building CRM systems, e-commerce platforms, and scalable web applications serving thousands of daily users.",
+  "bio": "Senior Fullstack Developer with 8+ years of experience specializing in Laravel, React, Node.js, and AI automation. Experienced in building enterprise CRM systems, AI-powered platforms, and scalable web applications serving thousands of daily users.",
   "socials": [
     { "name": "GitHub", "url": "https://github.com/dev-lin2" },
-    { "name": "LinkedIn", "url": "https://linkedin.com/in/iamlinaung" }
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/dev-linaung" }
   ],
   "experience": [
     {
-      "role": "Fullstack Developer",
-      "company": "Amdon Development",
-      "period": "May 2024 - Present",
-      "description": "Built and maintained 3 projects with React, Vite, TypeScript and Node.js. Added over 200 Storybook components and achieved 85%+ test coverage.",
-      "tags": ["React", "Vite", "TypeScript", "Node.js", "Storybook"]
+      "role": "Senior Full Stack Developer",
+      "company": "Heysara",
+      "period": "Jun 2024 - Present",
+      "location": "Singapore",
+      "description": "Architected and deployed full-stack customer portal on existing CMS infrastructure, enabling self-service capabilities and improving customer experience. Developed and integrated intelligent AI agents across CMS platform to automate content processing, data extraction, and workflow orchestration. Engineered enterprise automation solutions using n8n across Microsoft 365 ecosystem (SharePoint, Outlook, OneDrive), streamlining cross-platform business processes. Deployed and maintained production server infrastructure within internal NAT environment, ensuring high availability and security compliance.",
+      "tags": ["Laravel", "React", "AI Agents", "n8n", "Microsoft 365", "SharePoint", "Docker", "DevOps"]
     },
     {
       "role": "Fullstack Developer",
       "company": "Aptive Environmental",
       "period": "Oct 2023 - Mar 2024",
-      "description": "Developed core modules for greenfield CRM system with 5000+ daily users. Boosted application performance by 50% through database query optimization.",
-      "tags": ["Laravel", "JavaScript", "Docker", "AWS"]
+      "location": "Utah, United States",
+      "description": "Developed core modules in Aptive's greenfield CRM system that have over 5000+ daily users. Developed comprehensive test suite, including integration, unit, and contract tests. Implemented critical features to address complex customer needs and improve user experience. Boosted application performance by 50% through strategic database query optimization.",
+      "tags": ["Laravel", "JavaScript", "Docker", "AWS", "TDD"]
     },
     {
       "role": "Fullstack Developer",
       "company": "Webquest.io",
       "period": "Jan 2023 - Oct 2023",
-      "description": "Managed and maintained 4-5 critical web applications. Built dynamic, responsive interfaces with Laravel and React.",
-      "tags": ["Laravel", "React", "Full Stack"]
+      "location": "Phuket, Thailand",
+      "description": "Spearheaded management and maintenance of a diverse portfolio of 4-5 critical web applications. Leveraged Laravel and React to architect dynamic, responsive user interfaces. Collaborated closely with clients to translate business requirements into technical solutions. Demonstrated expertise in full-stack development, from backend logic to frontend design.",
+      "tags": ["Laravel", "React", "Full Stack", "Client Management"]
     },
     {
       "role": "Fullstack Developer",
       "company": "Alphasirius.io",
       "period": "Dec 2021 - Jan 2023",
-      "description": "Migrated Java API to PHP, integrated global payment methods, and engineered admin panel for e-commerce platform.",
-      "tags": ["Laravel", "MongoDB", "Payment Integration"]
+      "location": "Singapore",
+      "description": "Successfully migrated Java API to PHP, enhancing system flexibility and maintainability. Integrated diverse global and local payment methods using Laravel 8, expanding market reach. Engineered a robust admin panel for e-commerce platform, significantly improving operational efficiency. Implemented MongoDB for optimized data management, boosting system performance.",
+      "tags": ["Laravel", "MongoDB", "Payment Integration", "PHP", "API Migration"]
     }
   ],
   "skills": [
-    { "category": "Frontend", "items": ["React.js", "Vue.js", "TypeScript", "Vite", "Livewire", "InertiaJs", "Tanstack"] },
-    { "category": "Backend", "items": ["PHP", "Node.js", "NestJs", "NextJs", "GraphQL", "Python"] },
+    { "category": "Backend", "items": ["Laravel", "Node.js", "NestJs", "PHP"] },
+    { "category": "Frontend", "items": ["React.js", "Next.js", "Vue.js", "Inertia.js", "Livewire", "Vite", "TypeScript"] },
+    { "category": "Mobile", "items": ["Flutter" , "React Native", "Ionic"] },
     { "category": "Database", "items": ["PostgreSQL", "MySQL", "MongoDB"] },
-    { "category": "Tools", "items": ["Docker", "AWS", "TDD", "Git"] },
-    { "category": "Mobile", "items": ["Flutter", "React Native", "Ionic"] }
+    { "category": "AI/Automation", "items": ["n8n", "AI Agents", "LLM APIs", "OpenAI", "Claude"] },
+    { "category": "DevOps/Tools", "items": ["Docker", "AWS", "Git", "TDD", "GraphQL"] }
   ],
   "projects": [
     {
-      "name": "Aptive Environmental CRM",
-      "description": "CRM system handling 5000+ daily users with comprehensive test suite and optimized performance.",
-      "tech": ["Laravel", "JavaScript", "Docker", "AWS"]
+      "name": "LearningFlowAI",
+      "period": "2024 - 2025",
+      "description": "Built full-stack marketplace for AI workflow distribution with user authentication, payment processing, and content management. Forked and customized open-source LRS platform to track workflow usage and learning data.",
+      "tech": ["NestJs", "ReactJs", "LRS", "Docker", "xAPI", "AWS", "Clojure"],
+      "url": "https://www.learningflow.ai/"
+    },
+    {
+      "name": "Aptive Environmental",
+      "period": "2023 - 2024",
+      "description": "Developed and maintained a CRM project to handle over 5000+ daily users.",
+      "tech": ["Laravel", "Javascript", "Docker", "AWS"],
+      "url": "https://www.learningflow.ai/"
     },
     {
       "name": "Carzuno",
-      "description": "Revamped UI and added quality of life features to drive more sales.",
-      "tech": ["Laravel", "React", "Docker"]
+      "period": "2023",
+      "description": "Drive more sales by revamping the UI and adding more quality of life features. Upgrade and maintain functionalities.",
+      "tech": ["Laravel", "ReactJs", "Docker"],
+      "url": "https://www.carzuno.com/"
+    },
+    {
+      "name": "Lazudi",
+      "period": "2023",
+      "description": "Redesigned search and home page interfaces for improved user engagement. Optimized background job schedulers and cron tasks for better performance. Implemented comprehensive SEO improvements including meta optimization and content structure.",
+      "tech": ["Laravel", "ReactJs", "Docker"],
+      "url": "https://www.lazudi.com/"
+    },
+    {
+      "name": "Vanango",
+      "period": "2023",
+      "description": "Revamped payment page UI to increase conversion rates and optimized checkout flow for better user experience. Enhanced SEO performance through strategic implementation of meta tags, headers, and structured data using proprietary SEO software.",
+      "tech": ["ReactJs", "AlpineJs", "Laravel", "Docker"],
+      "url": "https://www.vanango.com/"
     },
     {
       "name": "Servd",
-      "description": "AWS-powered CRM with granular permissions. Migrated to Livewire for dynamic UI.",
-      "tech": ["Laravel", "Livewire", "AWS"]
+      "period": "2022 - 2023",
+      "description": "Developed AWS-powered CRM with granular permissions for customers and admins. Migrated to Livewire for dynamic UI.",
+      "tech": ["Laravel", "Livewire", "AWS", "Javascript"]
     },
     {
-      "name": "WERLOOP",
-      "description": "E-commerce web application with multi-vendor system and multiple payment integrations.",
-      "tech": ["Laravel", "JavaScript"]
+      "name": "ANIMEGASTORE",
+      "period": "2021 - 2022",
+      "description": "Integrated payment gateways, upgraded PHP version, added new pages, and revamped UI for enhanced CRM user experience.",
+      "tech": ["PHP", "Javascript", "Paypal", "Stripe"],
+      "url": "https://www.animegastore.com/"
+    },
+    {
+      "name": "JLPT N5 Vocabulary App",
+      "period": "2021",
+      "description": "Built a web app to help users learn and memorize JLPT N5 vocabulary.",
+      "tech": ["ReactJs", "Vite", "TypeScript"],
+      "url": "https://jlpt-n5-vocabs-mj5e.vercel.app/"
     }
   ],
   "education": [
     {
       "degree": "Bachelor of Engineering (IT)",
       "school": "West Yangon Technological University",
-      "year": "2017"
+      "location": "Yangon, Myanmar",
+      "period": "2011 - 2017"
     }
+  ],
+  "certificates": [
+    "Advanced React by Meta",
+    "Basic React by Meta",
+    "EF SET (English)"
   ]
 }
